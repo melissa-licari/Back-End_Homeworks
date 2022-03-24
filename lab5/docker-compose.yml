@@ -1,0 +1,8 @@
+version: "1.29"
+services:
+  app:
+    build: ./lab5
+    container_name: "3037363911"
+    ports:
+      - "8000:5000"
+
